@@ -1,0 +1,26 @@
+.hero{
+filter: drop-shadow(5px 5px 20px rgb(226, 233, 233));
+}
+#pic{
+width: 700px;
+height: 500px;
+filter: grayscale();
+}
+#pic:hover{
+filter: none;
+cursor: pointer;
+}
+#nav{
+color: white;
+}
+#nav:hover{
+color:aqua;
+text-shadow: 5px 10px 10px rgb(231, 238, 238);
+}
+.icon{
+ display: flex; 
+ justify-content: center;    
+ align-items: center;  
+ flex-direction: row;   
+ gap: 15px;   
+}
